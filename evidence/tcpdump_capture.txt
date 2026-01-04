@@ -1,0 +1,30 @@
+21:43:38.619184 eth0  Out IP 172.25.73.208.49736 > 185.125.190.57.123: NTPv4, Client, length 48
+21:43:38.680076 eth0  In  IP 185.125.190.57.123 > 172.25.73.208.49736: NTPv4, Server, length 48
+21:43:43.515924 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.113: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515935 lo    In  IP 127.0.0.1.113 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515940 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.199: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515942 lo    In  IP 127.0.0.1.199 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515945 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.111: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515946 lo    In  IP 127.0.0.1.111 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515949 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.25: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515951 lo    In  IP 127.0.0.1.25 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515954 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.587: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515955 lo    In  IP 127.0.0.1.587 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515958 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.139: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515960 lo    In  IP 127.0.0.1.139 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515962 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.22: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515974 lo    In  IP 127.0.0.1.22 > 127.0.0.1.37907: Flags [S.], seq 4059831998, ack 4088640994, win 65495, options [mss 65495], length 0
+21:43:43.515976 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.22: Flags [R], seq 4088640994, win 0, length 0
+21:43:43.515980 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.993: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515982 lo    In  IP 127.0.0.1.993 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515985 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.554: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515987 lo    In  IP 127.0.0.1.554 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.515989 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.23: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.515991 lo    In  IP 127.0.0.1.23 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.516052 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.110: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.516054 lo    In  IP 127.0.0.1.110 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.516057 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.135: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.516059 lo    In  IP 127.0.0.1.135 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.516062 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.256: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0
+21:43:43.516064 lo    In  IP 127.0.0.1.256 > 127.0.0.1.37907: Flags [R.], seq 0, ack 4088640994, win 0, length 0
+21:43:43.516066 lo    In  IP 127.0.0.1.37907 > 127.0.0.1.143: Flags [S], seq 4088640993, win 1024, options [mss 1460], length 0

@@ -1,50 +1,38 @@
-🛡️ IDS Alert Analysis – Reconnaissance Activity
-📌 Overview
+# IDS Reconnaissance Alert Analysis
 
-This project simulates a SOC investigation of IDS alerts triggered by reconnaissance activity. The objective is to identify abnormal network behavior, analyze evidence, map the activity to MITRE ATT&CK, and recommend containment actions.
+## Overview
+This project demonstrates hands-on IDS alert analysis by detecting reconnaissance activity through network traffic inspection.
 
-🚨 Alert Description
+## Objective
+- Identify suspicious network behavior
+- Validate IDS alerts
+- Recommend containment actions
 
-An IDS alert was generated due to multiple TCP connection attempts across different ports from a single source IP within a short time window.
+## Tools Used
+- Nmap
+- tcpdump
+- Linux (Ubuntu / WSL)
 
-🔍 Investigation & Evidence
+## Attack Scenario
+A TCP SYN port scan was executed against the target system, generating abnormal traffic indicative of reconnaissance activity.
 
-Tool used: nmap, tcpdump
+## Evidence
+- Nmap Scan: evidence/nmap-scan.txt
+- Packet Capture: evidence/tcpdump-capture.txt
 
-Observed multiple SYN packets targeting sequential ports
+## Analysis
+- Rapid scanning across multiple ports
+- Single source IP
+- No successful exploitation
 
-No application-level session established
+## MITRE ATT&CK
+- Tactic: Reconnaissance
+- Technique: Active Scanning (T1595)
 
-Open service discovered: SSH (port 22)
+## Outcome
+The alert was classified as a true positive reconnaissance event and containment actions were recommended.
 
-🧠 Analysis
+## Author
+Ali Fekry  
+Entry-Level SOC / IT Monitoring Analyst
 
-Activity identified as port scanning
-
-Behavior matches early-stage reconnaissance
-
-No successful exploitation observed
-
-🧩 MITRE ATT&CK Mapping
-
-Tactic: Reconnaissance
-
-Technique: Active Scanning (T1595)
-
-⚠️ Severity
-
-Low to Medium — early attack stage with potential risk escalation.
-
-🧯 Recommended Response Actions
-
-Block or rate-limit the source IP
-
-Tune IDS signatures to detect scan patterns
-
-Monitor for exploitation attempts
-
-Escalate if repeated or targeting critical systems
-
-📘 Lessons Learned
-
-Early detection of reconnaissance allows organizations to prevent exploitation before system compromise occurs.
